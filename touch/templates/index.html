@@ -115,19 +115,19 @@
     </nav>
     <div class="main-control">
       <div class="input">
-        <form action="" method="GET">
+        <form method="GET">
           <div class="control">
-            <label for="output">Output</label>
+            <label for="output">Bot</label>
             <textarea
               name="output"
               id="output"
               cols="30"
-              rows="5"
+              rows="4"
               readonly
-            ></textarea>
+            >{{ output }}</textarea>
           </div>
           <div class="control">
-            <label for="input">Input</label>
+            <label for="input">You</label>
             <input name="input" type="text" id="input" />
           </div>
           <button name="submit" type="submit">Submit</button>
